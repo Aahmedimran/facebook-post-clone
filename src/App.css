@@ -2,17 +2,30 @@
  margin-left: 0%;
  
   padding: 0%;
+  background-color: rgb(240,242,245);
 }
 
 .all-post{
-  
+  box-sizing: border-box;
+  width: 22em;
+  /* padding: 8px; */
+  flex-basis: 100%;
  margin: 20px;
+ background-color: white;
+ border: 2px solid white;
+ border-radius: 20px;
+ box-shadow: 2em;
 }
-
+h2,p{
+  background-color: white;
+}
 .userprofile{
   display: flex;
   align-items: center;
   gap: 2vh;
+  padding-left: 10px;
+  background-color: white;
+  border-radius: 20px;
 }
 .userprofile>img{
   border-radius: 30px;
@@ -20,8 +33,21 @@
   height: 50px;
 }
 img{
-  width: 300px;
+  width: 21.9rem;
+  
   height: 300px;
+}
+
+.userreact{
+  border-bottom: 1px solid black;
+}
+.all-button{
+  background-color: white;
+}
+button>i{
+  padding-bottom: 9px;
+  background-color: white;
+  font-weight: bold;
 }
 button{
   
@@ -31,3 +57,11 @@ button{
   margin: 0px 10px 0px 10px;
 }
 
+button:hover{
+background-color: rgb(240,242,245);
+
+}
+i:hover{
+  background-color: rgb(240,242,245);
+  
+  }
